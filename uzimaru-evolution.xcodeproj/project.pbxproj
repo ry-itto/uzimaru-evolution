@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF667F7A247E3481000450F9 /* uzimaru-evolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uzimaru-evolution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF667F7A247E3481000450F9 /* uzimaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uzimaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF667F7D247E3481000450F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF667F7F247E3481000450F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF667F81247E3481000450F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		BF667F7B247E3481000450F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF667F7A247E3481000450F9 /* uzimaru-evolution.app */,
+				BF667F7A247E3481000450F9 /* uzimaru.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 				BF667F93247E3594000450F9 /* ComposableArchitecture */,
 			);
 			productName = "uzimaru-evolution";
-			productReference = BF667F7A247E3481000450F9 /* uzimaru-evolution.app */;
+			productReference = BF667F7A247E3481000450F9 /* uzimaru.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -302,9 +302,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ry-itto.uzimaru-evolution";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = uzimaru;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +322,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ry-itto.uzimaru-evolution";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = uzimaru;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
