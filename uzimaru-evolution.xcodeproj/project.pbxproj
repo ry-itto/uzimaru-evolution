@@ -14,6 +14,11 @@
 		BF667F87247E3482000450F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF667F86247E3482000450F9 /* Preview Assets.xcassets */; };
 		BF667F8A247E3482000450F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF667F88247E3482000450F9 /* LaunchScreen.storyboard */; };
 		BF667F94247E3594000450F9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BF667F93247E3594000450F9 /* ComposableArchitecture */; };
+		BFFB5DAD247FA94000E18727 /* EvolutionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB5DAC247FA94000E18727 /* EvolutionState.swift */; };
+		BFFB5DAF247FA99000E18727 /* Evolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB5DAE247FA99000E18727 /* Evolution.swift */; };
+		BFFB5DB1247FAA7B00E18727 /* EvolutionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB5DB0247FAA7B00E18727 /* EvolutionReducer.swift */; };
+		BFFB5DB3247FAAB000E18727 /* EvolutionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB5DB2247FAAB000E18727 /* EvolutionAction.swift */; };
+		BFFB5DB5247FAFD700E18727 /* EvolutionEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB5DB4247FAFD700E18727 /* EvolutionEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		BF667F86247E3482000450F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF667F89247E3482000450F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF667F8B247E3482000450F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFB5DAC247FA94000E18727 /* EvolutionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionState.swift; sourceTree = "<group>"; };
+		BFFB5DAE247FA99000E18727 /* Evolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evolution.swift; sourceTree = "<group>"; };
+		BFFB5DB0247FAA7B00E18727 /* EvolutionReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionReducer.swift; sourceTree = "<group>"; };
+		BFFB5DB2247FAAB000E18727 /* EvolutionAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionAction.swift; sourceTree = "<group>"; };
+		BFFB5DB4247FAFD700E18727 /* EvolutionEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,11 @@
 				BF667F88247E3482000450F9 /* LaunchScreen.storyboard */,
 				BF667F8B247E3482000450F9 /* Info.plist */,
 				BF667F85247E3482000450F9 /* Preview Content */,
+				BFFB5DAE247FA99000E18727 /* Evolution.swift */,
+				BFFB5DB2247FAAB000E18727 /* EvolutionAction.swift */,
+				BFFB5DB4247FAFD700E18727 /* EvolutionEnvironment.swift */,
+				BFFB5DB0247FAA7B00E18727 /* EvolutionReducer.swift */,
+				BFFB5DAC247FA94000E18727 /* EvolutionState.swift */,
 			);
 			path = "uzimaru-evolution";
 			sourceTree = "<group>";
@@ -154,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFB5DB3247FAAB000E18727 /* EvolutionAction.swift in Sources */,
+				BFFB5DB1247FAA7B00E18727 /* EvolutionReducer.swift in Sources */,
 				BF667F7E247E3481000450F9 /* AppDelegate.swift in Sources */,
+				BFFB5DAD247FA94000E18727 /* EvolutionState.swift in Sources */,
 				BF667F80247E3481000450F9 /* SceneDelegate.swift in Sources */,
+				BFFB5DAF247FA99000E18727 /* Evolution.swift in Sources */,
 				BF667F82247E3481000450F9 /* ContentView.swift in Sources */,
+				BFFB5DB5247FAFD700E18727 /* EvolutionEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
