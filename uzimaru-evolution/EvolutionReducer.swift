@@ -20,6 +20,16 @@ let evolutionReducer = EvolutionReducer { (state, action, _) in
     case .degenerate:
         guard let previous = state.evolution.previous else { return .cancel(id: EvolutionReducerID()) }
         state.evolution = previous
+    case .poke:
+        if case .v1 = state.evolution {
+            state.pokeCount += 1
+            if state.pokeCount == 4 {
+                state.pokeCount = 0
+                return .init(value: .evolve)
+            }
+        } else {
+            return .cancel(id: EvolutionReducerID())
+        }
     }
     return .none
 }

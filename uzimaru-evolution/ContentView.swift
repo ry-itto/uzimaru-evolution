@@ -25,6 +25,9 @@ struct ContentView: View {
                     Image.init(viewStore.evolution.text)
                         .resizable()
                         .scaledToFit()
+                        .onTapGesture {
+                            viewStore.send(.poke)
+                        }
                     HStack(spacing: 30) {
                         Button(
                             action: {

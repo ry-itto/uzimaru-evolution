@@ -9,4 +9,5 @@
 enum EvolutionAction {
     case evolve
     case degenerate
+    case poke
 }
